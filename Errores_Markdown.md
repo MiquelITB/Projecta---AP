@@ -10,8 +10,7 @@ $servername = "localhost"; // hostname correcto
 
 // Script SQL - Crear base de datos
 // Original:
-CREATE DATABASE crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci Where false; 
--- WHERE false no existe en SQL; además se añade IF NOT EXISTS para evitar error si la BD ya existe
+CREATE DATABASE crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci Where false; // WHERE false no existe en SQL; además se añade IF NOT EXISTS para evitar error si la BD ya existe
 
 // Corregido:
 CREATE DATABASE IF NOT EXISTS crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
