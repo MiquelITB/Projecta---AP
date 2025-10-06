@@ -239,9 +239,9 @@ sudo systemctl restart mariadb
 
 echo "=== [8/8] Instalación completada ==="
 echo
-echo "✅ Aplicación desplegada en: http://localhost/app"
-echo "✅ Base de datos creada: ${DB_NAME}"
-echo "✅ Usuario BBDD: ${DB_USER}"
-echo "✅ Password: ${DB_PASS}"
+echo " Aplicación desplegada en: http://localhost/app"
+echo " Base de datos creada: ${DB_NAME}"
+echo " Usuario BBDD: ${DB_USER}"
+echo " Password: ${DB_PASS}"
 echo
 echo "Puedes acceder desde tu navegador y empezar a usar el CRUD."
