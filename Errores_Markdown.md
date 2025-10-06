@@ -1,3 +1,4 @@
+```php
 // db.php
 // Original:
 $servername = "locahost"; // mal escrito
