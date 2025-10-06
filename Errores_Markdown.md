@@ -28,7 +28,7 @@ $stmt = $conn->prepare("INSERT INTO users (name, email) VALUES (?, ?)");
 
 // index.php - formulario
 // Original:
-<form action="add.php" method="posts"> <!-- posts no es un metodo válido -->
+<form action="add.php" method="posts"> // posts no es un metodo válido
 
 // Corregido:
 <form action="add.php" method="post">
