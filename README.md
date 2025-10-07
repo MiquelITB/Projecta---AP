@@ -1,6 +1,6 @@
-*﻿#README.md*
+*﻿# #README.md*
 
-Ficheros Proyecto:
+## Ficheros Proyecto:
 
 **1- AP ASIXc2 Projecte.php**
 
@@ -27,5 +27,6 @@ DB\_PASS="db user passwd"
 APP\_DIR="app directory ejm:/var/www/html/app"
 
 \# ======================================================
+
 
 
