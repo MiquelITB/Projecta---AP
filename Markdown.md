@@ -78,31 +78,31 @@ Explicación: WHERE false no existe en SQL; se añade IF NOT EXISTS para evitar 
 ### Archivo add.php - INSERT
 
 Original:  
-$stmt = $conn->prepare("INSERT INTO users (name, email) VALUES (*, ?)");
+`$stmt = $conn->prepare("INSERT INTO users (name, email) VALUES (*, ?)");`
 
 Corregido:  
-$stmt = $conn->prepare("INSERT INTO users (name, email) VALUES (?, ?)");
+`$stmt = $conn->prepare("INSERT INTO users (name, email) VALUES (?, ?)");`
 
 ---
 
 ### Archivo index.php - Formulario
 
 Original:  
-<form action="add.php" method="posts">
+`<form action="add.php" method="posts">`
 
 Corregido:  
-<form action="add.php" method="post">
+`<form action="add.php" method="post">`
 
 ---
 
 ### Archivo index.php - Tabla Duplicada
 
 Original:  
-<table>  
-<table border="1">
+`<table>`  
+`<table border="1">`
 
 Corregido:  
-<table border="1">
+`<table border="1">`
 
 ---
 
